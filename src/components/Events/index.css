@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.eventsRoute {
+  display: flex;
+  min-height: 100vh;
+}
+.eventsContainer {
+  width: 60%;
+  background-color: #475569;
+  padding: 2rem;
+}
+.eventsContainer > h1 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.eventItems {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style-type: none;
+  gap: 1.8rem;
+  padding-top: 1.5rem;
+}
